@@ -1,6 +1,7 @@
 function remove(string) {
-    //coding and coding....
-    return '';
+    let myStr = string;
+    myStr = myStr.replaceAll('!', '');
+    return myStr += "!";
 }
 
 console.log(remove("Hi!")); // "Hi!"
